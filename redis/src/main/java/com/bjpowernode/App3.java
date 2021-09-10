@@ -18,7 +18,7 @@ public class App3
            Transaction tran=jedis.multi();
            tran.set("str1","aaa");
            tran.set("str2","bbb");
-           //事务处理
+           //事务处理888
            List<Object> oList=tran.exec();
            System.out.println("事务结果打印");
            for(Object o:oList){
